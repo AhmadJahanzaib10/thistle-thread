@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "chronic display";
+    src: url('../fonts/Chronicle Display Roman.otf') format("opentype");
+    /* otf ===> Open Type */
+    /* ttf ===> True Type */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 50px;
+    align-items: center;
+}
+.navbar .logo h2{
+    color: #212121;
+    font-weight: 400;
+    font-family: "chronic display";
+}
+.navbar .links, .navbar .options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.navbar .links li{
+    list-style: none;
+}
+.navbar .links a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #212121;
+}
+.navbar .options .opt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .options .opt p{
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+#hero{
+    width: 100%;
+    background: url(../images/background.png);
+    min-height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.hero-text{
+    color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    flex-direction: column;
+}
+.hero-text h2{
+    font-weight: 400;
+    font-family: "chronic display";
+    font-size: 45px;
+}
+
+.hero-text button{
+    width: 170px;
+    background-color: #212121;
+    color: #fff;
+    font-size: 17px;
+    font-family: "chronic display";
+    border: 0px;
+    padding: 15px 0px;
+    border-radius: 4px;
+}
